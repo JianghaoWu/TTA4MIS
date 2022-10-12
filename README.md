@@ -8,7 +8,7 @@ This is a curated list of **TTA** in medical image analysis, which also contains
 - [Generic Method](#Generic Method)
 - [Segmentation](#segmentation)
   * [MR](#MR)
-  * [CT, OCT](# CT, OCT)
+  * [CT, OCT](#CT, OCT)
 - [Classification](#classification)
   - [Histology  image](#Histology  image)
 - [Miscellaneous](#miscellaneous)
