@@ -1,0 +1,28 @@
+MODEL:
+  NETWORK: unet
+  CKPT_DIR: /data2/jianghao/TTA-MT/TTA-MT/save_model/mms2d_unet/source-A-model-latest.pth
+  DATASET: mms2d
+  NUMBER_CLASS: 4
+  METHOD: meant
+  EXPNAME: tempo
+
+ADAPTATION:
+  BATCH_SIZE: 10
+  EPOCH: 1
+  TARGET_DOMAIN:
+  - B
+  - C
+  - D
+
+OPTIM:
+  METHOD: Adam
+  STEPS: 1
+  BETA: 0.9
+  LR: 1e-4
+  WD: 0.
+  MT: 0.999
+  RST: 0.01
+  AP: 0.92
+
+
+  

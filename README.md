@@ -1,4 +1,4 @@
-# Test Time Adaptation in Medical Image Analysis
+# Test Time Adaptation in Medical Image Segmentation
 
 `Test Time Adaptation` (**TTA**) also known as `Source-free Domain Adaptation`(**SFDA**),  `Unsupervised Model Adaptation` (**UMA**).  
 
